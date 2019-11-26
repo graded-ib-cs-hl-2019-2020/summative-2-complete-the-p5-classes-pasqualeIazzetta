@@ -38,8 +38,9 @@ function setup() {
     let numFlakes = 10;
     createCanvas(500, 500);
     for (/* TODO REQUIRED - fill this in*/) {
-        balls[i] = new Ball(random(25, width - 25), random(25, height - 25), random(10, 50));
+        Ball[] = new Ball(random(25, width - 25), random(25, height - 25), random(10, 50));
         /* TODO OPTIONAL - make the balls a random color */
+
     }
     for (/* TODO REQUIRED  - fill this in*/) {
         /* TODO REQUIRED - add the bubbles */
