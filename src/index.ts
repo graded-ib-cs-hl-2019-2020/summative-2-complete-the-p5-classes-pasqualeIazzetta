@@ -36,34 +36,88 @@ function setup() {
     let numBubbles = 10;
     let numBalls = 10;
     let numFlakes = 10;
-    createCanvas(500, 500);
-    for (/* TODO REQUIRED - fill this in*/) {
-        Ball[] = new Ball(random(25, width - 25), random(25, height - 25), random(10, 50));
+    createCanvas(500, 500)
+    for (let i = 0; i < numBalls; i++) {
+        balls[i] = new Ball(random(25, width - 25), random(25, height - 25), random(10, 50));
         /* TODO OPTIONAL - make the balls a random color */
+        balls[0] = new Ball(30, 30, 30)
+        balls[1] = new Ball(300, 100, 60)
+        balls[2] = new Ball(500, 300, 90)
+        balls[3] = new Ball(200, 400, 100)
+        balls[4] = new Ball(400, 200, 50)
+
 
     }
-    for (/* TODO REQUIRED  - fill this in*/) {
+    for (let i = 0; i < numBubbles; i++) {
         /* TODO REQUIRED - add the bubbles */
+        bubbles[i] = new Bubble(random(30)
     }
-    for (/* TODO REQUIRED */) {
+    for (let i = 0; i < numFlakes; i++) {
         /* TODO REQUIRED - add the snowflakes */
+        snowflakes[i] = new Snowflake(
+
+            snowflakes[0] =
+
+
     }
 }
 
 function draw() {
+
     background("skyblue");
-    for (/* TODO REQUIRED*/) {
-        balls[i].draw();
-        balls[i].move();
+    for (let i = 0; i < numBalls; i++) {
+        balls[0].draw();
+        balls[1].draw();
+        balls[2].draw();
+        balls[3].draw();
+        balls[4].draw()
+        balls[0].move()
+        balls[1].move()
+        balls[2].move()
+        balls[3].move()
+        balls[4].move()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
     /* TODO REQUIRED - Draw and move the bubbles and flakes */
+
+
+
+
+
 }
+
+
 
 /* TODO OPTIONAL - add a function mousePressed() that either stops or starts objects from moving
    if the mouse is pressed while it is touching them. So you could use this (if careful!) to stop all of the
    objects from moving then start them back up again. The Ball class has some helper functions that will
    help you with this, but you'll need to add them to the other classes.
-*/
+*/ if (!mouseIsPressed) {
+
+}
 
 // do not edit the below lines
 window.draw = draw;

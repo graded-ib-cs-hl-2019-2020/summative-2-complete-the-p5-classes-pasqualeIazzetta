@@ -1,10 +1,10 @@
 
 export class Bubble {
-    private x: number;
-    private y: number;
-    private size: number;
-    private xSpeed: number;
-    private ySpeed: number;
+    private x!: number;
+    private y!: number;
+    private size!: number;
+    private xSpeed!: number;
+    private ySpeed!: number;
     private stopped: boolean = false;
     private color: string = "lightblue";
     private borderColor: string = "green";
@@ -14,6 +14,7 @@ export class Bubble {
         let color: string = "lightblue"
         let borderColor: string = "green"
         let ySpeed = 2;
+
 
 
 
