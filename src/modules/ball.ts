@@ -11,6 +11,16 @@ export class Ball {
 
   /* TODO REQUIRED - add accessors and mutators for x, y, size, color, and borderColor */
   constructor(x: number, y: number, size: number) {
+    let color: string = "red"
+    let borderColor: string = "black"
+    this.size = size
+    this.x = x
+    this.y = y
+
+
+
+
+
     /* TODO REQUIRED = Build your constructor */
     /* TODO OPTIONAL - add optional parameters to set color and borderColor on creation of the object */
   }
